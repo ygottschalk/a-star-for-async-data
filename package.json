@@ -10,7 +10,8 @@
   "scripts": {
     "build": "tsc",
     "test": "jasmine-ts",
-    "prepublish": "rimraf dist && npm run build && npm test"
+    "prepublish": "rimraf dist && npm run build && npm test",
+    "prepare": "rimraf dist && npm run build"
   },
   "repository": {
     "type": "git",
